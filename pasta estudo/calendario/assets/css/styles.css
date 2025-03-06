@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #3498db;
+  --primary-color-hover: #0061a1;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Garamond", sans-serif;
+  font-size: large;
+  line-height: normal;
+}
+
+.container {
+  max-width: 550px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background: #ffff;
+  padding: 20px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 85%;
+}
+
+form input {
+  font-size: medium;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #ffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 250;
+  height: 45px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+form button:hover {
+  background: var(--primary-color-hover);
+}
+
+.paragrafo-resultado {
+  padding: auto;
+  color: green;
+  transition: color 0.3s ease-in-out;
+}
+
+.paragrafo-resultado-erro {
+  padding: auto;
+  color: red;
+  transition: color 0.3s ease-in-out;
+}
