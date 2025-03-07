@@ -39,10 +39,12 @@ form input {
   font-size: medium;
   height: 50px;
   padding: 0 20px;
+  border-radius: 6px;
+  border-width: 1px;
 }
 
 form input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 2px solid var(--primary-color);
 }
 
 form button {
